@@ -1,0 +1,24 @@
+[
+    {
+      "nombre": "Sigmundur",
+      "contrasena": "141414",
+      "pais": "Pais1",
+      "telefono": "1234567890",
+      "email": "usuario1@example.com"
+    },
+    {
+      "nombre": "Ralphin",
+      "contrasena": "321321",
+      "pais": "Pais2",
+      "telefono": "9876543210",
+      "email": "usuario2@example.com"
+    },
+    {
+        "nombre": "Integer",
+        "contrasena": "123123",
+        "pais": "Pais3",
+        "telefono": "9876543210",
+        "email": "usuario2@example.com"
+      }
+  ]
+  
