@@ -5,12 +5,16 @@ const Estados = () => {
   const [estados, setEstados] = useState(0);
 
   return (
-    <button
-      className="boton-dato-interesante"
-      onClick={() => setEstados(estados + 1)}
-    >
-      {estados} estados
-    </button>
+    <>
+     <p className="border-2">{estados}</p> 
+      <button
+        className="boton-dato-interesante"
+        onClick={() => setEstados(estados + 1)}
+        title="incrementar valor"
+      >
+        +1
+      </button>
+    </>
   );
 };
 

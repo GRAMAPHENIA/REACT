@@ -2,40 +2,40 @@ import React, { useState, useEffect } from "react";
 import userData from "../data/data.json";
 
 function PageTitle() {
-  const [title, setTitle] = useState("🪝Hook: useEffect ");
+  const [title, setTitle] = useState("🔒");
 
   useEffect(() => {
     document.title = title;
     return () => {
-      document.title = "React App";
+      document.title = "Titulo";
     };
   }, [title]);
 
   const resetTitle = () => {
-    setTitle("🪝Visible");
+    setTitle("🔒");
   };
 
   return (
     <>
       <section className="perfil-noticia">
         <h3>useEffect</h3>
+        <h1 className="dato-interesante" title="Dato de interes">
+          {title}
+        </h1>
         <button
           className="boton-dato-interesante"
-          title="revelando"
+          title="abrir-cerrar"
           onClick={() => {
-            if (title === "🪝Visible") {
-              setTitle("🪝Oculto");
+            if (title === "🔒") {
+              setTitle("🔓");
             } else {
               resetTitle();
             }
           }}
         >
-          {title === "🪝Visible" ? "Ocultar" : "Mostrar"}
+          {title === "🔒" ? "Abrir" : "Cerrar"}
         </button>
       </section>{" "}
-      <h1 className="dato-interesante" title="Dato de interes">
-        {title}
-      </h1>
     </>
   );
 }
