@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 🔴 🧩 HTMLS 🧩 🔴 */
+
 :root {
   --border: rgb(39, 34, 34);
-  --foreground-rgb: 0, 0, 0;
+  --text-dark: rgb(255, 255, 255);
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -18,7 +20,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--text-dark);
   background: rgb(28, 24, 24);
 }
 
@@ -30,6 +32,7 @@ span {
 
 ::-webkit-scrollbar {
   background: rgb(74, 56, 56);
+  width: 12px;
 }
 ::-webkit-scrollbar-thumb {
   background: #3a2525;
@@ -51,7 +54,7 @@ span {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  margin: 1rem;
+  /* margin-block: 1rem; */
   background: #514848;
 }
 
