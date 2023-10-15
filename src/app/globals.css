@@ -28,6 +28,16 @@ span {
   color: rgb(137, 82, 82);
 }
 
+strong {
+  color: #e4c483;
+  font-weight: 600;
+}
+
+li {
+  font-weight: 300;
+  color: white;
+}
+
 /* 🔴 🧩 SCROLL 🧩 🔴 */
 
 ::-webkit-scrollbar {

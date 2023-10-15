@@ -1,16 +1,15 @@
 [
   {
-    "nombre": "Elizabeth",
-    "contrasena": "#1cc8dc",
-    "pais": "St. Vincent & Grenadines",
-    "telefono": "1234567890",
-    "email": "ferrth@umerigki.pk"
+    "nombre": "UseState",
+
+    "descripcion": "El hook useState en React es una herramienta que permite a los componentes funcionales tener su propia memoria para recordar información. Cuando lo usas, le dices al componente con qué información debe comenzar. Después, puedes ver esa información y cambiarla usando una función especial. Esto es fundamental para que las aplicaciones React puedan mostrar y actualizar datos de manera eficiente.",
+
+    "aplicacion": "En una aplicación de React, el hook useState es como una caja de herramientas esencial. Imagina que estás construyendo una casa y necesitas varias herramientas para diferentes tareas. useState sería como tu caja de tornillos y tu destornillador. Al principio, decides cuántos tornillos necesitas y guardas esa cantidad en la caja. Luego, con tu destornillador (la función setCount, por ejemplo), puedes apretar o aflojar esos tornillos según tus necesidades. En términos de una aplicación, useState te permite almacenar y controlar la información que deseas mostrar o modificar en tu interfaz. Puedes usarlo para llevar un seguimiento de cosas como el estado de un juego, el nombre de un usuario o cualquier otro dato que cambie en respuesta a la interacción del usuario. Es una pieza fundamental para crear aplicaciones interactivas y dinámicas en React."
   },
   {
-    "nombre": "Zachary",
-    "contrasena": "xdR6ApC",
-    "pais": "South Korea",
-    "telefono": "182.205.169.181",
-    "email": "hon@jan.at"
+    "nombre": "useEffect",
+    
+    "descripcion": "El hook useEffect en React es una herramienta que permite a los componentes funcionales realizar acciones especiales en respuesta a eventos, como cuando se carga la página o cuando ciertos datos cambian. Puedes usarlo para realizar tareas como cargar datos desde un servidor, actualizar la interfaz de usuario o interactuar con otros componentes. En resumen, useEffect brinda la capacidad de gestionar el flujo de la aplicación en función de eventos y cambios específicos, lo que lo hace esencial para la interactividad y la dinámica de las aplicaciones React.",
+    "aplicacion": "a"
   }
 ]

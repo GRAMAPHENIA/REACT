@@ -13,9 +13,12 @@ const Data = () => {
           <li className="mb-10" key={id}>
             <strong>Nombre:</strong> {data.nombre}
             <br />
-            <strong>País:</strong> {data.pais}
             <br />
-            <strong>Email:</strong> {data.email}
+            <strong>Descripción:</strong> {data.descripcion}
+            <br />
+            <br />
+            <strong>Aplicación:</strong> {data.aplicacion}
+            <br />
             <br />
           </li>
         ))}
