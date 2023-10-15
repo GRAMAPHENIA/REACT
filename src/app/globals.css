@@ -61,9 +61,9 @@ span {
   align-items: center;
   border: 2px solid var(--border);
   border-radius: 8px;
-  padding: 2rem;
+  padding: 1rem;
   margin-bottom: 1rem;
-  width: 600px;
+  width: 320px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
