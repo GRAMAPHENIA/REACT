@@ -7,11 +7,11 @@ import userData from "../data/data.json";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-6xl">Use State</h1>
+      <h1 className="text-6xl">Datos de interes</h1>
 
       <section>
         <div>
-          <h1 className="text-2xl text-center">Datos de interes</h1>
+          <h1 className="text-4xl text-center"><span>[</span>Hooks<span>]</span> </h1>
 
           <ul>
             {userData.map((data, id) => (

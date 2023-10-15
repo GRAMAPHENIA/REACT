@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import userData from "../data/data.json";
 
 function PageTitle() {
-  const [title, setTitle] = useState("Particularidades"); // Estado para el título
+  const [title, setTitle] = useState("Ver 🪝"); // Estado para el título
 
   useEffect(() => {
     // Esta función se ejecutará cuando el componente se monte
@@ -20,24 +20,25 @@ function PageTitle() {
 
   return (
     <section className="perfil-noticia">
-      <h1 className="dato-interesante" title="Dato de interes">
-        {title}
-      </h1>
+      
       <button
         className="boton-dato-interesante"
         title="revelando"
         onClick={() => {
           if (title === "Algo particular") {
-            setTitle("Noticia interesante. 🎲");
+            setTitle("Volver a ver🪝");
           } else {
             resetTitle();
           }
         }}
       >
         {title === "Algo particular"
-          ? "Mostrar"
-          : "Ocultar"}
+          ? "Ocultar"
+          : "Mostrar"}
       </button>
+      <h1 className="dato-interesante" title="Dato de interes">
+        {title}
+      </h1>
     </section>
   );
 }
