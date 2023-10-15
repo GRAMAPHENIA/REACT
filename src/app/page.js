@@ -11,7 +11,7 @@ export default function Home() {
 
       <section>
         <div>
-          <h1 className="text-2xl text-center">Lista de Usuarios</h1>
+          <h1 className="text-2xl text-center">Datos de interes</h1>
 
           <ul>
             {userData.map((data, id) => (
