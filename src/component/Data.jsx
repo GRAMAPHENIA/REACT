@@ -15,8 +15,6 @@ const Data = () => {
             <br />
             <strong>País:</strong> {data.pais}
             <br />
-            <strong>Teléfono:</strong> {data.telefono}
-            <br />
             <strong>Email:</strong> {data.email}
             <br />
           </li>
