@@ -30,6 +30,14 @@ li {
   color: white;
 }
 
+/* 🔴 🧩 NAVBAR 🧩 🔴 */
+
+.navbar {
+  padding-block: 20px;
+  gap: 20px;
+  font-size: 20px;
+}
+
 /* 🔴 🧩 SCROLL 🧩 🔴 */
 
 ::-webkit-scrollbar {
@@ -75,7 +83,7 @@ li {
   -o-border-radius: 8px;
 }
 
-/* 🔴 🧩 COMPONBENTE CITY 🧩 🔴 */
+/* 🔴 🧩 COMPONENTE CITY 🧩 🔴 */
 
 .titulo {
   font-size: 3.75rem /* 60px */;
