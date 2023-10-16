@@ -14,6 +14,8 @@
 body {
   color: var(--text-dark);
   background: rgb(28, 24, 24);
+  overflow-y: scroll;
+  padding-right: 17px;
 }
 
 span {
