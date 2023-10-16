@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function City() {
+function Tasks() {
   const [tasks, setTasks] = useState([]);
   const [completedTasks, setCompletedTasks] = useState([]);
   const [taskName, setTaskName] = useState("");
@@ -34,7 +34,7 @@ function City() {
 
   return (
     <div>
-      <h1 className="titulo">Ciudad Tarea</h1>
+      <h1 className="titulo">TAREAS</h1>
       <div>
         <h2 className="tareas-pendientes-h2">
           Pendientes <span>(</span> {tasks.length - completedTasks.length}
@@ -76,4 +76,4 @@ function City() {
   );
 }
 
-export default City;
+export default Tasks;

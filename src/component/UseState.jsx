@@ -6,7 +6,7 @@ const Estados = () => {
 
   return (
     <>
-     <p className="border-2">{estados}</p> 
+      <p>{estados}</p>
       <button
         className="boton-dato-interesante"
         onClick={() => setEstados(estados + 1)}
