@@ -43,7 +43,7 @@ li {
 /* 🔴 🧩 SCROLL 🧩 🔴 */
 
 ::-webkit-scrollbar {
-  background: rgb(74, 56, 56);
+  background: rgb(28, 24, 24);
   width: 12px;
 }
 ::-webkit-scrollbar-thumb {
@@ -66,7 +66,6 @@ li {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  /* margin-block: 1rem; */
   background: #514848;
 }
 

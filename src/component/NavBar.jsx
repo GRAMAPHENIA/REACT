@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar flex items-center justify-center">
       <Link href="/">Inicio</Link>
       <Link href="/datos">Teoria</Link>
-      <Link href="/tasks">Aplicación</Link>
+      <Link href="/tareas">Aplicación</Link>
     </nav>
   );
 };

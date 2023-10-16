@@ -2,9 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-20 text-center">
-      Sitio creado con <span className="span-footer">Next</span> &{" "}
-      <span className="span-footer">React</span>.{" "}
+    <footer className="py-20 mb-10 text-center">
+      Sitio creado con{" "}
+      <a href="/" className="span-footer" title="ir a pagina de Next">
+        Next
+      </a>{" "}
+      &{" "}
+      <a href="/" className="span-footer" title="ir a pagina de React">
+        React
+      </a>
+      .
     </footer>
   );
 };
