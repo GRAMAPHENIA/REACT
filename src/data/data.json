@@ -8,8 +8,9 @@
   },
   {
     "nombre": "useEffect",
-    
+
     "descripcion": "El hook useEffect en React es una herramienta que permite a los componentes funcionales realizar acciones especiales en respuesta a eventos, como cuando se carga la página o cuando ciertos datos cambian. Puedes usarlo para realizar tareas como cargar datos desde un servidor, actualizar la interfaz de usuario o interactuar con otros componentes. En resumen, useEffect brinda la capacidad de gestionar el flujo de la aplicación en función de eventos y cambios específicos, lo que lo hace esencial para la interactividad y la dinámica de las aplicaciones React.",
-    "aplicacion": "a"
+
+    "aplicacion": "Imagina que estás construyendo una ciudad virtual en tu aplicación de React. El hook useEffect es como el plano de la ciudad, donde puedes marcar diferentes áreas y asignar actividades a cada una. Por ejemplo, puedes programar que en una zona de la ciudad (representada por un componente), se realicen ciertas tareas cuando alguien llega a esa área o cuando algo cambia dentro de ella. UseEffect te permite definir qué debe suceder en tu aplicación en respuesta a eventos específicos. Puedes usarlo para cargar datos desde una fuente externa cuando el usuario visita una sección, o para actualizar la vista cuando ciertos datos cambian. Así, tu aplicación reacciona de manera inteligente a las interacciones del usuario y a los cambios en los datos, como si tuvieras un plan detallado para tu ciudad virtual en React."
   }
 ]

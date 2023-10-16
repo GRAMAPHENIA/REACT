@@ -4,11 +4,11 @@ import userData from "../data/data.json";
 const Data = () => {
   return (
     <>
-      <h1 className="text-center text-6xl mt-10">json</h1>
+      <h1 className="text-center text-6xl mt-10">ADICIONAL</h1>
       <h2 className="text-center text-4xl pb-10">
-        <span>[</span> Array <span>]</span>
+        <span>[</span> detalles <span>]</span>
       </h2>
-      <ul>
+      <ul className="">
         {userData.map((data, id) => (
           <li className="mb-10" key={id}>
             <strong>Nombre:</strong> {data.nombre}

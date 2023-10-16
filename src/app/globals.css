@@ -6,17 +6,9 @@
 
 :root {
   --border: rgb(39, 34, 34);
+  --border-hover: rgb(101, 92, 92);
+  --button-hover: rgba(117, 106, 106, 0.481);
   --text-dark: rgb(255, 255, 255);
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
 
 body {
@@ -81,4 +73,97 @@ li {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+}
+
+/* 🔴 🧩 COMPONBENTE CITY 🧩 🔴 */
+
+.titulo {
+  font-size: 3.75rem /* 60px */;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.agregar-tarea {
+  padding-top: 2rem;
+}
+
+.agregar-tarea input {
+  background: #514848;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.agregar-tarea button {
+  margin-left: 20px;
+  border: 2px solid var(--border);
+  padding: 0.5rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.agregar-tarea button:hover {
+  background: var(--button-hover);
+  border: 2px solid var(--border-hover);
+}
+
+.boton {
+  margin-left: 20px;
+  margin-block: 10px;
+  border: 2px solid var(--border);
+  padding: 0.5rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.boton:hover {
+  background: var(--button-hover);
+  border: 2px solid var(--border-hover);
+}
+
+.tareas-completas {
+  border-left: 4px solid var(--border-hover);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  padding-left: 10px;
+}
+
+.tareas-completas-h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.tareas-pendientes {
+  border-left: 4px solid var(--border-hover);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  padding-left: 10px;
+}
+
+.tareas-pendientes-h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.span-footer {
+  color: rgb(28, 149, 210);
 }
