@@ -34,32 +34,34 @@ function Tasks() {
 
   return (
     <div>
-      <h1 className="titulo">TAREAS</h1>
+      <h1 className="titulo">EMPAQUETADO</h1>
       <div>
         <h2 className="tareas-pendientes-h2">
           Pendientes <span>(</span> {tasks.length - completedTasks.length}
           <span> )</span>
         </h2>
-        <ul>
+        <ul className="tareas-pendientes">
           {tasks
             .filter((task) => !task.completed)
             .map((task) => (
               <li key={task.id}>
                 <strong>{task.name}</strong>
                 <button className="boton" onClick={() => completeTask(task.id)}>
-                  Completar
+                  Empaquetar
                 </button>
               </li>
             ))}
         </ul>
       </div>
       <h2 className="tareas-completas-h2">
-        Completas <span>(</span> {completedTasks.length} <span>)</span>
+        Paquetes <span>(</span> {completedTasks.length} <span>)</span>
       </h2>
       <div className="tareas-completas">
         <ul>
           {completedTasks.map((task) => (
-            <li key={task.id}><strong className="strong-listo">{task.name}</strong></li>
+            <li key={task.id}>
+              <strong className="strong-listo"> 📦 {task.name}</strong>
+            </li>
           ))}
         </ul>
       </div>
@@ -73,7 +75,7 @@ function Tasks() {
         />
       </div>
       <button className="boton-agregar" onClick={addTask}>
-        Agregar Tarea
+        Agregar
       </button>
     </div>
   );

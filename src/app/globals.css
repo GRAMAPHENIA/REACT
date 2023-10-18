@@ -9,7 +9,7 @@
   --border-hover: rgb(101, 92, 92);
   --button-hover: rgba(117, 106, 106, 0.481);
   --text-dark: rgb(255, 255, 255);
-  --check: rgb(110, 190, 166);
+  --check: rgb(149, 197, 202);
 }
 
 body {
@@ -92,7 +92,7 @@ li {
 /* 🔴 🧩 COMPONENTE TAREAS 🧩 🔴 */
 
 .titulo {
-  font-size: 3.75rem;
+  font-size: 3rem;
   line-height: 1;
   text-align: center;
   margin: 1em auto;
@@ -162,7 +162,6 @@ li {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-
   padding-left: 10px;
 }
 
@@ -179,8 +178,8 @@ li {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-
   padding-left: 10px;
+  margin: 20px auto;
 }
 
 .tareas-pendientes-h2 {
