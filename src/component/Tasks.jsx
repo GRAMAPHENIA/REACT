@@ -45,7 +45,7 @@ function Tasks() {
             .filter((task) => !task.completed)
             .map((task) => (
               <li key={task.id}>
-                {task.name}
+                <strong>{task.name}</strong>
                 <button className="boton" onClick={() => completeTask(task.id)}>
                   Completar
                 </button>
@@ -59,19 +59,22 @@ function Tasks() {
       <div className="tareas-completas">
         <ul>
           {completedTasks.map((task) => (
-            <li key={task.id}>{task.name}</li>
+            <li key={task.id}><strong className="strong-listo">{task.name}</strong></li>
           ))}
         </ul>
       </div>
       <div className="agregar-tarea">
         <input
+          className="border"
           type="text"
           placeholder="Nueva tarea"
           value={taskName}
           onChange={(e) => setTaskName(e.target.value)}
         />
-        <button onClick={addTask}>Agregar Tarea</button>
       </div>
+      <button className="boton-agregar" onClick={addTask}>
+        Agregar Tarea
+      </button>
     </div>
   );
 }
