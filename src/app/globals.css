@@ -150,7 +150,7 @@ li {
   -o-border-radius: 6px;
 }
 
-.boton:hover {
+.boton-agregar:hover {
   background: var(--button-hover);
   border: 2px solid var(--border-hover);
 }
